@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: steelblue;
+  background-color: #5CDB95;
   color: white;
   font-family: 'Muli', sans-serif;
   display: flex;
@@ -37,10 +37,12 @@ body {
   cursor: pointer;
   display: inline-block;
   width: 100%;
-  background: lightblue;
+  background: #05386B;
+  color: white;
   padding: 16px;
   font-family: inherit;
   font-size: 16px;
+  font-weight: bold;
   border: 0;
   border-radius: 5px;
 }
@@ -52,6 +54,7 @@ body {
 
 .btn:hover {
   background: lightgreen;
+  color: black;
 }
 
 /* When button is clicked down on */
